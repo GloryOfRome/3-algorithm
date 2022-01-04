@@ -25,11 +25,11 @@ namespace bubble_sort
             }
         }
 
-        public static void Swap(int[]arr,int j,int j+1)
+        public static void Swap(int[]arr,int i,int j)
         {
-                        int t = arr[j];
-                        arr[j] = arr[j + 1];
-                        arr[j + 1] = t;
+                        int t = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = t;
 
         }
 
